@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creeaza cont</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="form-box"> 
+            <h1>Creeaza un cont</h1>
+            <form action="creeazacont.php" method="post" onsubmit="return validateForm()">
+              <div>
+                <label for="create-username">Nume de utilizator:</label>
+                <input type="text" id="create-username" name="create-username" required>
+              </div>
+              <div>
+                <label for="create-password">Creare parola:</label>
+                <input type="password" id="create-password" name="create-password" required>
+              </div>
+              <div >
+                <label for="confirm-password">Repeta parola:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+              </div>
+              <hr>
+              <div >
+                <input type="submit" value="Creeaza cont" >
+              </div>
+         </div>
+     </div>
+   </div>             
+            </form>
+         
+      
+</body>
+</html>

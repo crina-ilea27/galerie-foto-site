@@ -1,0 +1,5 @@
+{
+    "window.menuBarVisibility": "compact",
+    "php.validate.executablePath": "c:\\xampp\\php\\php.exe",
+    "html.format.templating": true
+}
